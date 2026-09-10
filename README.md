@@ -1,0 +1,5 @@
+- **CMU-MOSEI**：[数据链接](https://github.com/matsuolab/CMU-MultimodalSDK)
+- **CH-SIMS v2.0**：[数据链接](https://github.com/thuiar/ch-sims-v2)
+- **MELD**：[数据链接](https://github.com/declare-lab/MELD)
+- **CHERMA**：[数据链接](https://github.com/sunjunaimer/LFMIM)
+- **MER-Caption**：[数据链接](https://huggingface.co/datasets/MERChallenge/MER2025)
