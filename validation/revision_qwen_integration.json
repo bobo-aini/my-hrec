@@ -1,0 +1,60 @@
+{
+  "kind": "real backbone; synthetic features",
+  "training": {
+    "model_class": "HREC_Qwen_1_8B.model.HRECQwen",
+    "backbone_class": "HREC_Qwen_1_8B.backbone.modeling_qwen.QWenModel",
+    "best_epoch": 1,
+    "best_validation_loss": 3.074503739674886,
+    "retriever_unchanged": true,
+    "completion_changed": true,
+    "trainable_parameters": 42792,
+    "memory_sha256": "8654e0603b8a4c8e79b4cd9d653138883d8370ac6ae49107b3fdf0903eaf3592"
+  },
+  "evaluation": {
+    "all": {
+      "samples": 6,
+      "loss": 3.168875257174174,
+      "pattern": "all",
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "weighted_f1": 0.16666666666666666,
+      "class_support": [
+        2,
+        2,
+        2
+      ],
+      "MTD@4": 0.3333333333333333,
+      "H-nDCG@4": 0.9394673863661162
+    },
+    "text_only": {
+      "samples": 6,
+      "loss": 3.19259774684906,
+      "pattern": "text_only",
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "weighted_f1": 0.16666666666666666,
+      "class_support": [
+        2,
+        2,
+        2
+      ],
+      "MTD@4": 1.0416666666666667,
+      "H-nDCG@4": 0.6995684772510451
+    },
+    "no_text": {
+      "samples": 6,
+      "loss": 3.2405614455540976,
+      "pattern": "no_text",
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "weighted_f1": 0.16666666666666666,
+      "class_support": [
+        2,
+        2,
+        2
+      ],
+      "MTD@4": 0.3333333333333333,
+      "H-nDCG@4": 0.9394673863661162
+    }
+  }
+}

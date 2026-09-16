@@ -1,0 +1,40 @@
+{
+  "chatglm": {
+    "status": "passed",
+    "scope": "reduced random architecture; synthetic features",
+    "local_checkpoint_and_tokenizer_loading": true,
+    "two_stage_pipeline": true,
+    "five_observation_patterns": true,
+    "checkpoint_reload": true,
+    "target_label_independence": true,
+    "training": {
+      "model_class": "HREC_ChatGLM3_6B.model.HRECChatGLM",
+      "backbone_class": "HREC_ChatGLM3_6B.backbone.modeling_chatglm.ChatGLMModel",
+      "best_epoch": 1,
+      "best_validation_loss": 0.9772281448046366,
+      "retriever_unchanged": true,
+      "completion_changed": true,
+      "trainable_parameters": 4488,
+      "memory_sha256": "7484c92079eb70c729416b2d4eeab20bb7d8e371ba93a9edc52e2eeaad8957b7"
+    }
+  },
+  "llama": {
+    "status": "passed",
+    "scope": "reduced random architecture; synthetic features",
+    "local_checkpoint_and_tokenizer_loading": true,
+    "two_stage_pipeline": true,
+    "five_observation_patterns": true,
+    "checkpoint_reload": true,
+    "target_label_independence": true,
+    "training": {
+      "model_class": "HREC_Llama2_7B.model.HRECLlama",
+      "backbone_class": "HREC_Llama2_7B.backbone.modeling_llama.LlamaModel",
+      "best_epoch": 1,
+      "best_validation_loss": 0.9233094056447347,
+      "retriever_unchanged": true,
+      "completion_changed": true,
+      "trainable_parameters": 4488,
+      "memory_sha256": "7484c92079eb70c729416b2d4eeab20bb7d8e371ba93a9edc52e2eeaad8957b7"
+    }
+  }
+}

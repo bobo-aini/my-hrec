@@ -1,0 +1,24 @@
+{
+  "chatglm": {
+    "status": "passed",
+    "hidden_shape": [
+      2,
+      32
+    ],
+    "prefix_gradient_abs_sum": 0.004556234925985336,
+    "padding_consistency": true,
+    "frozen_model_no_gradients": true,
+    "scope": "actual transformer implementation; reduced random weights, not full pretrained model"
+  },
+  "llama": {
+    "status": "passed",
+    "hidden_shape": [
+      2,
+      32
+    ],
+    "prefix_gradient_abs_sum": 0.0004636201192624867,
+    "padding_consistency": true,
+    "frozen_model_no_gradients": true,
+    "scope": "actual transformer implementation; reduced random weights, not full pretrained model"
+  }
+}

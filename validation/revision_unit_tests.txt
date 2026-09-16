@@ -1,0 +1,33 @@
+<environment>/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+test_chatglm_shipped_source_prefix_gradient_and_padding (test_backbone_sources.BackboneSourceTests) ... <frozen importlib._bootstrap>:241: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+<frozen importlib._bootstrap>:241: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+ok
+test_llama_shipped_source_prefix_gradient_and_padding (test_backbone_sources.BackboneSourceTests) ... ok
+test_qwen_shipped_source_prefix_gradient_and_padding (test_backbone_sources.BackboneSourceTests) ... ok
+test_distance_origin_symmetry_and_zero (test_hrec.GeometryTests) ... ok
+test_finite_origin_gradient (test_hrec.GeometryTests) ... ok
+test_inverse_and_nonunit_curvature (test_hrec.GeometryTests) ... ok
+test_canonical_paths_merge_equivalent_nodes (test_hrec.HierarchyTests) ... ok
+test_sentiment_normalization (test_hrec.HierarchyTests) ... ok
+test_shortest_path_for_coarse_and_fine (test_hrec.HierarchyTests) ... ok
+test_stratified_candidates_and_shortage_fill (test_hrec.HierarchyTests) ... ok
+test_surprise_is_undetermined_and_synonyms_merge (test_hrec.HierarchyTests) ... ok
+test_completion_attention_retains_geodesic_prior (test_hrec.MechanismTests) ... ok
+test_labels_do_not_change_prediction (test_hrec.MechanismTests) ... ok
+test_last_nonpadding_state_matches_individual_forward (test_hrec.MechanismTests) ... ok
+test_missing_inputs_and_gate_normalization (test_hrec.MechanismTests) ... ok
+test_source_overlap_rejected (test_hrec.MechanismTests) ... ok
+test_stage_two_gradients_and_frozen_parameters (test_hrec.MechanismTests) ... ok
+test_stale_memory_rejected (test_hrec.MechanismTests) ... ok
+test_text_excluded_from_nonverbal_retrieval (test_hrec.MechanismTests) ... ok
+test_text_fallback_is_only_active_query (test_hrec.MechanismTests) ... ok
+test_topk_chunking_equals_full_distance_sort (test_hrec.MechanismTests) ... ok
+test_memory_import_rejects_missing_paired_features (test_hrec.PreparationTests) ... ok
+test_processed_classification_import_and_numeric_mapping (test_hrec.PreparationTests) ... {"records": 1, "output": "/tmp/tmpsomltucc/out.jsonl", "text_features": "run prepare-text next"}
+ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 7.014s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "kind": "single-update shape and gradient check with synthetic features and real Qwen-1.8B",
+  "hyp_dim": 128,
+  "feature_dim": 256,
+  "attention_dim": 128,
+  "candidates": 96,
+  "top_k": 10,
+  "micro_batch_samples": 2,
+  "retrieval_loss": 4.563685417175293,
+  "task_loss": 5.209998607635498,
+  "completion_gradient_abs_sum": 375.6230964958668,
+  "frozen_retriever_unchanged": true,
+  "frozen_backbone_without_gradients": true,
+  "peak_cuda_allocated_gb": 3.998932361602783
+}

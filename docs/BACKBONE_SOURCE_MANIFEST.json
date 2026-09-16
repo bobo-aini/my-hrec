@@ -1,0 +1,107 @@
+[
+  {
+    "file": "HREC_Qwen_1_8B/backbone/cache_autogptq_cuda_256.cpp",
+    "input_sha256": "225066b519e0d47c020888de6bb71dfd664dc7b007ecda22e5b164cbcb4d4fa0",
+    "distributed_sha256": "49f672d4ec7a389eab4cdfcf8407f4b5ba84862a892f2db2dc68e33daad8719a",
+    "changes": []
+  },
+  {
+    "file": "HREC_Qwen_1_8B/backbone/cache_autogptq_cuda_kernel_256.cu",
+    "input_sha256": "86e976adcc29856606af333e848fa2b99cf9a94b25bf5a16119cdcb800cf04bc",
+    "distributed_sha256": "dc5ceef13376c24a96f413bc32cdf1f1a6e66d5449cac98dc8767596ddba0207",
+    "changes": []
+  },
+  {
+    "file": "HREC_Qwen_1_8B/backbone/configuration_qwen.py",
+    "input_sha256": "74626181ddd5c9c40accdbb93fc45007cb2278179a32504f32bd82ffb4336e2c",
+    "distributed_sha256": "6587aa674fd386869eb84701074f385562b6b7716f4c099ff82e641939887b4a",
+    "changes": []
+  },
+  {
+    "file": "HREC_Qwen_1_8B/backbone/cpp_kernels.py",
+    "input_sha256": "ff4979357ad9bb939336827a4fc7f2934d6a49c8193010b402729c30478b9465",
+    "distributed_sha256": "64c426eb5ffb3fea12e9c1e2f50912f230cc310118d95fdfc2364f0971865038",
+    "changes": []
+  },
+  {
+    "file": "HREC_Qwen_1_8B/backbone/modeling_qwen.py",
+    "input_sha256": "7482892d33418bdd543d1ce61e5c8b5b1bd49bd85ff26be185fb3521b73daac7",
+    "distributed_sha256": "b903013bc4031f71f217e6e983d57aefb6a83c13466a09e43727f352dacab09f",
+    "changes": []
+  },
+  {
+    "file": "HREC_Qwen_1_8B/backbone/qwen_generation_utils.py",
+    "input_sha256": "f223e0f1bb987fdb93b7cf80e046d96e9e910650103ef2f136eb04887324de34",
+    "distributed_sha256": "5a546b695bc39a72e103272aa778bbeebf180c455fbd21bdb9a97cd93c7e2da0",
+    "changes": []
+  },
+  {
+    "file": "HREC_Qwen_1_8B/backbone/tokenization_qwen.py",
+    "input_sha256": "c9bbb7710bacfaa323d48b8414643d8d7893d174f85f65e83fbc363de271b69a",
+    "distributed_sha256": "0790bc743eb6529f10b1f57fe20730d7ce7bab90796e55c977a53440d785c1b1",
+    "changes": []
+  },
+  {
+    "file": "HREC_ChatGLM3_6B/backbone/configuration_chatglm.py",
+    "input_sha256": "351ba435758670b27c160b7657c7ab1d32053c4e8c0606a5a9b8f9908249dec8",
+    "distributed_sha256": "b6fb1fe15df8e5e9cb369acc8d90058d732297467630eb5b70ca18560aef5303",
+    "changes": [
+      "Added explicit original_rope default."
+    ]
+  },
+  {
+    "file": "HREC_ChatGLM3_6B/backbone/modeling_chatglm.py",
+    "input_sha256": "5226b1c6a0c6d7daf75c90bbc282c3390fd824a22bde5672a780ab552c615f75",
+    "distributed_sha256": "4adb43db90a91836a5f0d9f5470a641bebf2d0fd7c9f485b80d0d0b9eb7d34a9",
+    "changes": [
+      "Use local configuration imports.",
+      "Replace legacy prefix replacement with standard inputs_embeds; preserve native masks and rotary positions."
+    ]
+  },
+  {
+    "file": "HREC_ChatGLM3_6B/backbone/quantization.py",
+    "input_sha256": "7a690346ab3866ebdc361fb5d7389ecf6e3e8fe62f50868d28a5bcbff52ecd20",
+    "distributed_sha256": "48ed4863ed907e95d814a969e2692a5613d5c170c095d7809635683a9ed67cd3",
+    "changes": []
+  },
+  {
+    "file": "HREC_ChatGLM3_6B/backbone/tokenization_chatglm.py",
+    "input_sha256": "ba3f783cd0ee0f8e2f52efe6753a782b9dafaa27293e0a561bed34b258d55d55",
+    "distributed_sha256": "4f16436c1c93f67dd6ac9794c09549a4216e9012268cdb652636e35194012b54",
+    "changes": [
+      "Consume and validate serialized fixed special tokens during tokenizer reload."
+    ]
+  },
+  {
+    "file": "HREC_Llama2_7B/backbone/configuration_llama.py",
+    "input_sha256": "ff3dd95d01b8af523cbc55e380ba06f7beadf63531225784dfd6d1958f8f64a4",
+    "distributed_sha256": "a0f9ae00f64cb0ca76e6c5e060b3a9ec9272c265ce12be296a9e5cf1dfe7e2de",
+    "changes": [
+      "Package-relative utility imports changed to explicit Transformers 4.40.2 imports."
+    ]
+  },
+  {
+    "file": "HREC_Llama2_7B/backbone/modeling_llama.py",
+    "input_sha256": "9cfab1a1f94b6ffe3b609221fd4c6ebc1af8af0ab469f52d7a1c846b5ee3ff23",
+    "distributed_sha256": "6d738f76b288fdde307741fe59833fd045eaadd8c69856ae85d64451e5443020",
+    "changes": [
+      "Package-relative utility imports changed to explicit Transformers 4.40.2 imports."
+    ]
+  },
+  {
+    "file": "HREC_Llama2_7B/backbone/tokenization_llama.py",
+    "input_sha256": "fd5ff53926cd47ee7c957e11dcb4fc88e440e3054f575b47f615feac1207434b",
+    "distributed_sha256": "322eb388123ae59350aa04d917ce818f423f5be5108795fbcf600ea1ea8336bc",
+    "changes": [
+      "Package-relative utility imports changed to explicit Transformers 4.40.2 imports."
+    ]
+  },
+  {
+    "file": "HREC_Llama2_7B/backbone/tokenization_llama_fast.py",
+    "input_sha256": "89cf78a47276fadc7f62084b58ce2216bc9b069fbd951953efe4dc4c93c9cb9c",
+    "distributed_sha256": "a68ac7fd5941e11dc56951a8bdf7e601b16c47bb5253d1806c2ac7aa1ea34bcd",
+    "changes": [
+      "Package-relative utility imports changed to explicit Transformers 4.40.2 imports."
+    ]
+  }
+]
