@@ -1,0 +1,9 @@
+numpy>=1.24,<3
+torch>=2.3,<2.7
+transformers==4.40.2
+accelerate>=0.29,<1
+tiktoken>=0.6,<1
+einops>=0.7,<1
+transformers-stream-generator==0.0.4
+sentencepiece>=0.1.99,<1
+protobuf>=3.20,<5

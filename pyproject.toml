@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hrec"
+version = "1.1.0"
+description = "Hyperbolic Retrieval for Hierarchical Evidence Completion"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.3,<2.7", "numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+backbone = ["transformers==4.40.2", "accelerate>=0.29,<1", "tiktoken>=0.6,<1", "einops>=0.7,<1", "transformers-stream-generator==0.0.4", "sentencepiece>=0.1.99,<1", "protobuf>=3.20,<5"]
+
+[project.scripts]
+hrec = "hrec.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["hrec*", "HREC_Qwen_1_8B*", "HREC_ChatGLM3_6B*", "HREC_Llama2_7B*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "configs/*.json", "*.md", "LICENSE", "NOTICE", "*.cpp", "*.cu"]
