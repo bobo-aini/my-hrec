@@ -1,5 +1,13 @@
 # HREC
+## Datasets
 
+The following multimodal emotion recognition datasets are used/evaluated in this project:
+
+- **CMU-MOSEI**: [Download Link](https://github.com/matsuolab/CMU-MultimodalSDK)
+- **CH-SIMS v2.0**: [Download Link](https://github.com/thuiar/ch-sims-v2)
+- **MELD**: [Download Link](https://github.com/declare-lab/MELD)
+- **CHERMA**: [Download Link](https://github.com/sunjunaimer/LFMIM)
+- **MER-Caption**: [Download Link](https://huggingface.co/datasets/MERChallenge/MER2025)
 **Hyperbolic Retrieval for Hierarchical Evidence Completion in Multimodal Emotion Recognition**
 
 This repository provides the HREC implementation accompanying the manuscript. It includes hierarchical retrieval pretraining, a frozen multimodal memory, geodesic-guided evidence completion, distance-conditioned modality balancing, and prediction with a frozen language model. Emotion classification and sentiment regression are supported.
