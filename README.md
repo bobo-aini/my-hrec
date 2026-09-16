@@ -1,5 +1,5 @@
 # HREC
-## Datasets
+# Datasets
 
 The following multimodal emotion recognition datasets are used/evaluated in this project:
 
@@ -8,6 +8,7 @@ The following multimodal emotion recognition datasets are used/evaluated in this
 - **MELD**: [Download Link](https://github.com/declare-lab/MELD)
 - **CHERMA**: [Download Link](https://github.com/sunjunaimer/LFMIM)
 - **MER-Caption**: [Download Link](https://huggingface.co/datasets/MERChallenge/MER2025)
+  
 **Hyperbolic Retrieval for Hierarchical Evidence Completion in Multimodal Emotion Recognition**
 
 This repository provides the HREC implementation accompanying the manuscript. It includes hierarchical retrieval pretraining, a frozen multimodal memory, geodesic-guided evidence completion, distance-conditioned modality balancing, and prediction with a frozen language model. Emotion classification and sentiment regression are supported.
